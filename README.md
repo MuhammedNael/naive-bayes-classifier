@@ -19,7 +19,7 @@ This Python script uses `pandas` and `numpy` to:
 
 1. **Clone the repository**:
     ```bash
-    git clone https://github.com/muhammednael/naive-bayes-classifier
+    git clone https://github.com/MuhammedNael/naive-bayes-classifier
     cd naive-bayes-classifier
 
 2. **Install dependencies**:
