@@ -1,0 +1,110 @@
+Classification Log
+==================================================
+Dataset:
+    Day   Outlook Temperature Humidity    Wind PlayTennis
+0     1     Sunny         Hot     High    Weak         No
+1     2     Sunny         Hot     High  Strong         No
+2     3  Overcast         Hot     High    Weak        Yes
+3     4      Rain        Mild     High    Weak        Yes
+4     5      Rain        Cool   Normal    Weak        Yes
+5     6      Rain        Cool   Normal  Strong         No
+6     7  Overcast        Cool   Normal  Strong        Yes
+7     8     Sunny        Mild     High    Weak         No
+8     9     Sunny        Cool   Normal    Weak        Yes
+9    10      Rain        Mild   Normal    Weak        Yes
+10   11     Sunny        Mild   Normal  Strong        Yes
+11   12  Overcast        Mild     High  Strong        Yes
+12   13  Overcast         Hot   Normal    Weak        Yes
+13   14      Rain        Mild     High  Strong         No
+
+Prior Probabilities:
+  P(Yes): 0.6428571428571429
+  P(No): 0.35714285714285715
+
+Likelihoods for the entire dataset:
+Feature: Outlook
+  Probabilities Yes: {'Sunny': 0.25, 'Overcast': 0.4166666666666667, 'Rain': 0.3333333333333333}
+  Probabilities No: {'Sunny': 0.5, 'Overcast': 0.125, 'Rain': 0.375}
+Feature: Temperature
+  Probabilities Yes: {'Hot': 0.25, 'Mild': 0.4166666666666667, 'Cool': 0.3333333333333333}
+  Probabilities No: {'Hot': 0.375, 'Mild': 0.375, 'Cool': 0.25}
+Feature: Humidity
+  Probabilities Yes: {'High': 0.36363636363636365, 'Normal': 0.6363636363636364}
+  Probabilities No: {'High': 0.7142857142857143, 'Normal': 0.2857142857142857}
+Feature: Wind
+  Probabilities Yes: {'Weak': 0.6363636363636364, 'Strong': 0.36363636363636365}
+  Probabilities No: {'Weak': 0.42857142857142855, 'Strong': 0.5714285714285714}
+
+Instance 1:
+  Actual Class: No
+  Predicted Class: No
+  Correct Prediction: 1
+
+Instance 2:
+  Actual Class: No
+  Predicted Class: No
+  Correct Prediction: 1
+
+Instance 3:
+  Actual Class: Yes
+  Predicted Class: Yes
+  Correct Prediction: 1
+
+Instance 4:
+  Actual Class: Yes
+  Predicted Class: Yes
+  Correct Prediction: 1
+
+Instance 5:
+  Actual Class: Yes
+  Predicted Class: Yes
+  Correct Prediction: 1
+
+Instance 6:
+  Actual Class: No
+  Predicted Class: Yes
+  Correct Prediction: 0
+
+Instance 7:
+  Actual Class: Yes
+  Predicted Class: Yes
+  Correct Prediction: 1
+
+Instance 8:
+  Actual Class: No
+  Predicted Class: No
+  Correct Prediction: 1
+
+Instance 9:
+  Actual Class: Yes
+  Predicted Class: Yes
+  Correct Prediction: 1
+
+Instance 10:
+  Actual Class: Yes
+  Predicted Class: Yes
+  Correct Prediction: 1
+
+Instance 11:
+  Actual Class: Yes
+  Predicted Class: Yes
+  Correct Prediction: 1
+
+Instance 12:
+  Actual Class: Yes
+  Predicted Class: Yes
+  Correct Prediction: 1
+
+Instance 13:
+  Actual Class: Yes
+  Predicted Class: Yes
+  Correct Prediction: 1
+
+Instance 14:
+  Actual Class: No
+  Predicted Class: No
+  Correct Prediction: 1
+
+Final Metrics:
+Accuracy: 0.93
+Confusion Matrix: {'True Positives': 9, 'False Positives': 1, 'True Negatives': 4, 'False Negatives': 0}
