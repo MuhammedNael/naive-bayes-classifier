@@ -23,8 +23,8 @@ This Python script uses `pandas` and `numpy` to:
     cd naive-bayes-classifier
 
 2. **Install dependencies**:
-    Python 3.x
-    pandas
+    Python 3.x,
+    pandas,
     numpy
 
 3. **Add your dataset**:
@@ -41,7 +41,7 @@ This Python script uses `pandas` and `numpy` to:
     * Detailed logs saved to classification_log.txt.
 
 ## Results
-    * Example output
+Example output:
     Accuracy: 0.85
     Confusion Matrix:
         True Positives: 5
